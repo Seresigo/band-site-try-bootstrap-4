@@ -1,0 +1,132 @@
+.hero {
+	background-image: url(../img/hero-bg.jpg);
+	background-size: cover;
+	background-position: bottom center;
+	padding-top: 20vh;
+	padding-bottom: 20vh;
+} 
+
+.about {
+	background: $black;
+}
+
+.about-title {
+	background: url(../../img/about-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	min-height: 45vw;
+}
+
+.about-text {
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+}
+
+.band-members {
+	margin: 0 .7em 0 0;
+	@include media-breakpoint-up(lg) {
+		margin-left: 4em;
+	}
+}
+
+.band-member { 
+	margin-bottom: 1.5em;
+	background: $black;
+	box-shadow: 6px 6px 15px 0 rgba(0, 0, 0, 0.5);
+	@include media-breakpoint-up(md) {
+			position: absolute;
+			top: -1.5em;
+			z-index: 100;	
+	}
+}
+
+.band-member-name {
+	font-family: $sans;
+	text-transform: uppercase;
+	margin-bottom: 0.25rem;
+}
+
+.band-member-position {
+	color: $gray-light;
+}
+
+.music {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.music .container {
+	background: $black;
+	box-shadow: 6px 6px 15px 0 rgba(0, 0, 0, 0.5);
+	padding-top: 7vh;
+	padding-bottom: 7vh;
+}
+
+.music-title {
+	margin-bottom: .5em;
+}
+
+.music-cta {
+	margin-top: 2em;
+}
+
+.shows {
+	margin-top: 2em;
+}
+
+.show-title {
+	font-family: $sans;
+	font-size: .9em;
+}
+
+.show-info {
+	display: flex;
+	flex-direction: column;
+	.btn {
+		margin-top: auto;
+	}
+	
+}
+
+.show-info > * {
+	margin-bottom: 0;
+}
+
+.date {
+	font-weight: $bold;
+	margin-top: 1.25em;
+	&::before {
+		content: '\f133';
+		display: inline-block;
+		font-family: fontawesome;
+		margin-right: .5em;
+	}
+}
+
+.price {
+	font-weight: $bold;
+	
+	small {
+		font-weight: $normal;
+	}
+	&::before {
+		content: '\f145';
+		display: inline-block;
+		font-family: fontawesome;
+		margin-right: .5em;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
