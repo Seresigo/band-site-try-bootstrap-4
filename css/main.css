@@ -5160,7 +5160,7 @@ h1 {
       display: block; } }
 
 .parallax-home {
-  background-image: url(../../img/parallax%20image.jpg); }
+  background-image: url(../img/parallax%20image.jpg); }
 
 footer {
   margin-top: 4em;
@@ -5190,7 +5190,7 @@ footer {
   background: #1f1f1f; }
 
 .about-title {
-  background: url(../../img/about-bg.jpg);
+  background: url(../img/about-bg.jpg);
   -webkit-background-size: cover;
           background-size: cover;
   background-position: center;
